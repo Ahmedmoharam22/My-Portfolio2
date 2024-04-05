@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sono:wght@200&display=swap');
+body{
+    font-family:'Montserrat Alternates', sans-serif;
+}
+/* scroll */
+  /* Scroll bar */
+  ::-webkit-scrollbar {
+    width: 0.7rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 5 5 5px 5px rgba(238, 3, 3, 0.5);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+   
+  ::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f80404;
+    
+  }
+   
+  /* for Firefox */
+   html {scrollbar-color: #e62f8d #3d4a59;} 
+
+   html {scroll-behavior: smooth;}
+
+/* Project */
+
+.project{
+    height: 650px !important;
+    background: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.crud-img{
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+.img-project{
+    height: 350px;
+    border-radius:10px 10px 0 0 !important ;
+    -webkit-border-radius:10px 10px 0 0 !important ;
+    -moz-border-radius:10px 10px 0 0 !important ;
+    -ms-border-radius:10px 10px 0 0 !important ;
+    -o-border-radius:10px 10px 0 0 !important ;
+}
+
+.btn1{
+    border: none;
+}
+.borderContact{
+    border-top: 1px solid #17a2b8 ;
+}
+.btn2{
+    width: 90%;
+    margin-left:5%;
+    border: none;
+    padding: 5px;
+    /* margin: 10px 5%; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn2:hover{
+background: #523030 !important;
+}
+.btn3{
+    width: 30%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    /* margin: 10px 5%; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.p-btn3{
+    display: flex;
+    justify-content: space-around;
+}
+.project-me{
+   
+    animation: move 0.5s;
+    -webkit-animation: move 0.5s;
+  }
+@keyframes move {
+    0%  {scale:0 }
+    40%  {scale:1.01 }
+    50%  {scale:1.1 }
+    60%  {scale:1.2 }
+    100%  {scale:1 }
+  }
+
+  /* clock */
+    .Data{
+    position: absolute ;
+    top: 5px;
+    right: 10px;
+    width: 200px;
+    
+  }
+  .Time{
+    position: absolute ;
+    top: 5px;
+    left: 10px;
+  }

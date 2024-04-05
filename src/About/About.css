@@ -1,0 +1,42 @@
+
+.btn1{
+    padding: 5px 10px;
+    width: 40%;
+    margin: 5px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.btn1:hover,.btn2:hover{
+    background-color: #17a2b8 !important;
+
+}
+.portfolio_link{
+    display: block;
+    color: #e62f8d;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.portfolio_link i {
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 450px) {
+    .about{
+        padding: 0px !important;
+    }
+    .para{
+        padding-left: 15px;
+    }
+    .img{
+        margin-top: 10px;
+    }
+  }

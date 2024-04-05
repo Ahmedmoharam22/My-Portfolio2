@@ -1,0 +1,105 @@
+    .flex-contact {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .fromControl {
+        width: 300px;
+        padding: 5px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background-color: rgba(63, 63, 70, 0.15);
+
+        border: 1px solid rgba(0, 0, 0, 0.252);
+        color: #EEE;
+        outline: none;
+    }
+
+    .light .fromControl {
+        background-color: white;
+        color: #000;
+    }
+
+    .light .fromControl:focus {
+        border: 1px solid rgba(63, 63, 70);
+    }
+
+    .fromControl:focus {
+        border: 1px solid rgb(45, 212, 191);
+    }
+
+    .light .submit {
+        background-color: black !important;
+
+    }
+
+    .light .submit:hover {
+        border: none !important;
+    }
+
+    .submit:hover {
+        border: 1px solid var(--blue);
+    }
+
+    .img-contact-mobile {
+        display: none;
+    }
+
+    .para-contact span{
+        cursor: pointer;
+    }
+
+    .form-contact {
+        padding: 30px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+    @media only screen and (max-width: 500px) {
+        
+        .form-contact {
+            padding: 10px;
+           
+        }
+        .btn-contact {
+            margin:0 0 10px 0
+    
+        }
+        .flex-contact {
+            display: block;
+        }
+
+        .fromControl {
+            margin: 10px 0 !important;
+            width:95%;
+
+        }
+
+        .sub {
+            width: 100%;
+            text-align: center;
+        }
+
+      
+
+        .img-contact {
+            display: none;
+        }
+
+        .img-contact-mobile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+            height: fit-content;
+
+        }
+
+    } 
