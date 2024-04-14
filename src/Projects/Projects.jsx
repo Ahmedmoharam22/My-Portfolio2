@@ -27,12 +27,19 @@ const Projects = ({ color }) => {
     },
     {
       category: "react",
+      name: "Movies App | Noxe",
+      img: img2,
+      github: "https://github.com/Ahmedmoharam22/Movies_main",
+      url: "https://movies-main-eight.vercel.app/",
+      desc: "Our project is a user-friendly streaming platform for movies and TV series, offering a vast collection for users to browse through. They can easily add favorites to a personal watchlist, creating a seamless experience for discovering, watching, and organizing conten",
+    },
+    {
+      category: "react",
       name: "E-Commerce ShoppiFy",
       img: img9,
       github: "https://github.com/Ahmedmoharam22/ShppiFy",
       url: "https://shppify.vercel.app/",
-      desc:
-        "A site to buy anything online easily with all possible payment methods",
+      desc: "A site to buy anything online easily with all possible payment methods",
     },
     ,
     {
@@ -50,8 +57,7 @@ const Projects = ({ color }) => {
       img: img10,
       github: "https://github.com/Ahmedmoharam22/shopping-cart-js",
       url: "https://ahmedmoharam22.github.io/shopping-cart-js/",
-      desc:
-        "Shop website with JavaScript shopping cart, favorite list, register and sign in with validate",
+      desc: "Shop website with JavaScript shopping cart, favorite list, register and sign in with validate",
     },
     {
       category: "JS",
@@ -70,7 +76,7 @@ const Projects = ({ color }) => {
       desc: "A responsive website developed using Bootstrap,",
     },
   ];
-  
+
   const [projects, setProjects] = useState(projectAll);
   function filterProject(cate) {
     let newProject = projectAll.filter((item) => item.category === cate);
@@ -87,20 +93,22 @@ const Projects = ({ color }) => {
           <div className="col-md-12">
             <div className="p-btn3">
               <button
-                className={`btn3  ${color[3] === "bg-white4"
+                className={`btn3  ${
+                  color[3] === "bg-white4"
                     ? color[3] + " text-white"
                     : color[3] + " text-white"
-                  }`}
+                }`}
                 onClick={() => setProjects(projectAll)}
               >
                 All Projects
               </button>
 
               <button
-                className={`btn3  ${color[3] === "bg-white4"
+                className={`btn3  ${
+                  color[3] === "bg-white4"
                     ? color[3] + " text-white"
                     : color[3] + " text-white"
-                  }`}
+                }`}
                 onClick={() => {
                   filterProject("JS");
                 }}
@@ -109,10 +117,11 @@ const Projects = ({ color }) => {
               </button>
 
               <button
-                className={`btn3  ${color[3] === "bg-white4"
+                className={`btn3  ${
+                  color[3] === "bg-white4"
                     ? color[3] + " text-white"
                     : color[3] + " text-white"
-                  }`}
+                }`}
                 onClick={() => {
                   filterProject("react");
                 }}
@@ -142,10 +151,11 @@ const Projects = ({ color }) => {
                   <a target="_blank" href={item.url}>
                     {" "}
                     <button
-                      className={`btn2 btn-project position-abs  ${color[3] === "bg-white4"
+                      className={`btn2 btn-project position-abs  ${
+                        color[3] === "bg-white4"
                           ? color[3] + " text-white"
                           : color[3] + " text-white"
-                        }`}
+                      }`}
                     >
                       {" "}
                       Live Preview

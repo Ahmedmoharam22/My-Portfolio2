@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Cv from "../Image/Ahmed Moharam CV (1).pdf";
+import Cv from "../Image/Ahmed Moharam New CV (1).pdf";
 import img from "../Image/mearn.png";
 const About = ({ color }) => {
   return (
