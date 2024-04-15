@@ -6,6 +6,7 @@ import img9 from "../Image/shoppify.png";
 import img10 from "../Image/project4.png";
 import img5 from "../Image/food lover.png";
 import img6 from "../Image/travel.png";
+import img11 from "../Image/movies app.png";
 
 const Projects = ({ color }) => {
   let projectAll = [
@@ -28,10 +29,10 @@ const Projects = ({ color }) => {
     {
       category: "react",
       name: "Movies App | Noxe",
-      img: img2,
+      img: img11,
       github: "https://github.com/Ahmedmoharam22/Movies_main",
       url: "https://movies-main-eight.vercel.app/",
-      desc: "Our project is a user-friendly streaming platform for movies and TV series, offering a vast collection for users to browse through. They can easily add favorites to a personal watchlist, creating a seamless experience for discovering, watching, and organizing conten",
+      desc: "Our project is a user-friendly streaming platform for movies and TV series, offering a vast collection for users to browse through. They can easily add favorites to a personal watchlist",
     },
     {
       category: "react",
