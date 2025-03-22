@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Cv from "../Image/Ahmed_Moharam CV.pdf";
+import Cv from "../Image/AhmedMoharamcv.pdf";
 import img from "../Image/mearn.png";
 const About = ({ color }) => {
   return (
@@ -38,7 +38,7 @@ const About = ({ color }) => {
             <a
               className="text-white"
               target="_blank"
-              href="mailto:ahmedmoharam2002@gmail.com"
+              href="mailto:ahmed.moharam.work@gmail.com"
             >
               {" "}
               <button

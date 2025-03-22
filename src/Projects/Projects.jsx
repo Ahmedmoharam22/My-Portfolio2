@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import img1 from "../Image/movies.png";
 import img2 from "../Image/yummy.png";
-import img8 from "../Image/islamic.png";
-import img9 from "../Image/shoppify.png";
-import img10 from "../Image/project4.png";
+import img8 from "../Image/amazon-clone.png";
+import img9 from "../Image/our-store.png";
+import img10 from "../Image/shopping-cart.png";
 import img5 from "../Image/food lover.png";
 import img6 from "../Image/travel.png";
 import img11 from "../Image/movies app.png";
+import img12 from "../Image/gallery-JS.png";
+import img13 from "../Image/sports-slider.png";
+import img14 from "../Image/country-meals.png";
+import img15 from "../Image/web-master.png";
+import img16 from "../Image/cart-app.png";
 
 const Projects = ({ color }) => {
   let projectAll = [
@@ -20,11 +25,43 @@ const Projects = ({ color }) => {
     },
     {
       category: "JS",
+      name: "Gallery",
+      img: img12,
+      github: "https://github.com/Ahmedmoharam22/gallery_Js",
+      url: "https://ahmedmoharam22.github.io/gallery_Js/",
+      desc: "An Image Gallery built with HTML, CSS, JavaScript, and Bootstrap displays a collection of images in a responsive grid layout.",
+    },
+    {
+      category: "JS",
+      name: "Sports Slider",
+      img: img13,
+      github: "https://github.com/Ahmedmoharam22/Slider-Sports",
+      url: "https://slider-sports.vercel.app/",
+      desc: "A Sports Gallery built with HTML, CSS, JavaScript, and Bootstrap showcases sports images in a responsive grid layout. It features image enlargement on click and smooth filtering for an enhanced user experience.",
+    },
+    {
+      category: "JS",
+      name: "Country Meals",
+      img: img14,
+      github: "https://github.com/Ahmedmoharam22/Country-Meals",
+      url: "https://country-meals.vercel.app/",
+      desc: "Country Meals is a Single Page Application (SPA) built with HTML, CSS, JavaScript, Bootstrap, and an external API. providing an interactive and seamless experience.",
+    },
+    {
+      category: "JS",
       name: "Resturant | Yummy  Website",
       img: img2,
       github: "https://github.com/Ahmedmoharam22/Yummy",
       url: "https://ahmedmoharam22.github.io/Yummy/",
       desc: "Yummy is a website can you buy and category of food with the easy bay methods .",
+    },
+    {
+      category: "JS",
+      name: "Web Masters Website",
+      img: img15,
+      github: "https://github.com/Ahmedmoharam22/Web_Masters-1-",
+      url: "https://ahmedmoharam22.github.io/Web_Masters-1-/",
+      desc: "Web Masters is a modern and responsive company website built with HTML, CSS, JavaScript, and Bootstrap. It showcases the company’s services, portfolio, and contact information with a clean and professional design.",
     },
     {
       category: "react",
@@ -36,11 +73,11 @@ const Projects = ({ color }) => {
     },
     {
       category: "react",
-      name: "E-Commerce ShoppiFy",
+      name: "Our Store",
       img: img9,
-      github: "https://github.com/Ahmedmoharam22/ShppiFy",
-      url: "https://shppify.vercel.app/",
-      desc: "A site to buy anything online easily with all possible payment methods",
+      github: "https://github.com/Ahmedmoharam22/our-store",
+      url: "https://our-store-git-main-ahmed-moharams-projects.vercel.app/",
+      desc: "Our Store is a modern eCommerce platform built with React, React Bootstrap, and Redux Toolkit. It specializes in selling chairs, sofas, and electronics.",
     },
     ,
     {
@@ -51,13 +88,29 @@ const Projects = ({ color }) => {
       url: "https://ahmedmoharam22.github.io/Islamic_project/",
       desc: " The Holy Qur’an website contains the complete Qur’an with the voices of all sheikhs and many languages",
     },
+    {
+      category: "react",
+      name: "Amazon Clone",
+      img: img8,
+      github: "https://github.com/Ahmedmoharam22/Amazon_Clone",
+      url: "https://amazon-clone-ruby-theta-14.vercel.app/",
+      desc: "Amazon Clone is a feature-rich eCommerce web application built with React, TypeScript, Redux, Tailwind CSS, React Slick, and Axios. .",
+    },
+    {
+      category: "react",
+      name: "Basic Cart App",
+      img: img16,
+      github: "https://github.com/Ahmedmoharam22/Amazon_Clone",
+      url: "https://amazon-clone-ruby-theta-14.vercel.app/",
+      desc: "Basic Cart App is a simple shopping cart application built with React, Redux, and React Bootstrap. It was developed as a personal project to practice and understand state management using Redux.",
+    },
     ,
     {
       category: "JS",
       name: "Shopping Cart",
       img: img10,
-      github: "https://github.com/Ahmedmoharam22/shopping-cart-js",
-      url: "https://ahmedmoharam22.github.io/shopping-cart-js/",
+      github: "https://github.com/Ahmedmoharam22/Shopping-cart-pure-js",
+      url: "https://shopping-cart-pure-js.vercel.app/",
       desc: "Shop website with JavaScript shopping cart, favorite list, register and sign in with validate",
     },
     {
@@ -148,7 +201,7 @@ const Projects = ({ color }) => {
                       </a>
                     </h6>
                   </div>{" "}
-                  <p className="text-project p-3 text-muted">{item.desc}</p>
+                  <p className="text-project p-3  text-muted">{item.desc}</p>
                   <a target="_blank" href={item.url}>
                     {" "}
                     <button
