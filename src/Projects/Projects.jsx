@@ -12,7 +12,9 @@ import img13 from "../Image/sports-slider.png";
 import img14 from "../Image/country-meals.png";
 import img15 from "../Image/web-master.png";
 import img16 from "../Image/cart-app.png";
-
+import img17 from "../Image/Screenshot (63).png";
+import img18 from "../Image/Screenshot (65).png";
+import img19 from "../Image/islamic.png";
 const Projects = ({ color }) => {
   let projectAll = [
     {
@@ -22,6 +24,22 @@ const Projects = ({ color }) => {
       github: "https://github.com/Ahmedmoharam22/Movies_App",
       url: "https://ahmedmoharam22.github.io/Movies_App/",
       desc: "A site that shows you the movies that topped the trend, find out every detail you want to know about the movie, know the directors, and many details ",
+    },
+    {
+      category: "react",
+      name: "El-Sayegh Website",
+      img: img17,
+      github: "https://github.com/Ahmedmoharam22/El-Sayegh-Website.git",
+      url: "https://el-sayigh.webamz.com/",
+      desc: "A full-stack institutional portal with a custom CMS and contest management system. Features secure document uploads, real-time Zod validation, and a dynamic dashboard for managing news, events, and results.",
+    },
+    {
+      category: "react",
+      name: "El-Noor Mediacal Website",
+      img: img18,
+      github: "https://github.com/Ahmedmoharam22/meddical-healthcare-platform.git",
+      url: "https://meddical-healthcare-platform.vercel.app/",
+      desc: "A high-performance Healthcare Platform featuring an Admin Dashboard, dynamic service management, and advanced state synchronization. Built with React Query and TypeScript for a type-safe, seamless medical experience.",
     },
     {
       category: "JS",
@@ -83,7 +101,7 @@ const Projects = ({ color }) => {
     {
       category: "react",
       name: "Islamic Website",
-      img: img8,
+      img: img19,
       github: "https://github.com/Ahmedmoharam22/Islamic_project",
       url: "https://ahmedmoharam22.github.io/Islamic_project/",
       desc: " The Holy Qur’an website contains the complete Qur’an with the voices of all sheikhs and many languages",
